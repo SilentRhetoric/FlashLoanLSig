@@ -1,4 +1,6 @@
-# TEALScript Project
+# TEALScript Project - Hello World + Flash Loan LogicSig
+
+This example extends the AlgoKit HelloWorld TealScript contract by creating a second smart contract--a logic signature (LSig)--which enables flash loans as long as it is repayed at the end of the atomic transaction group. The compilation of the LSig and construction of this transaction group sandwich, with the flash loan at the start and repayment at the end, can be seen in the test.
 
 ## Documentation
 
