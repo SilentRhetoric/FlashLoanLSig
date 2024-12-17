@@ -1,0 +1,375 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts/FlashLoan.algo.ts:3"
+  },
+  {
+    "teal": 3,
+    "source": "contracts/FlashLoan.algo.ts:3"
+  },
+  {
+    "teal": 4,
+    "source": "contracts/FlashLoan.algo.ts:3"
+  },
+  {
+    "teal": 11,
+    "source": "contracts/FlashLoan.algo.ts:3",
+    "pc": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts/FlashLoan.algo.ts:6",
+    "pc": [
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts/FlashLoan.algo.ts:6",
+    "pc": [
+      7
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts/FlashLoan.algo.ts:6",
+    "pc": [
+      8
+    ]
+  },
+  {
+    "teal": 22,
+    "source": "contracts/FlashLoan.algo.ts:6",
+    "pc": [
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "teal": 27,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      12,
+      13
+    ]
+  },
+  {
+    "teal": 28,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      14
+    ]
+  },
+  {
+    "teal": 29,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      15
+    ]
+  },
+  {
+    "teal": 32,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"typeEnum\",\"expected\":\"pay\"}",
+    "pc": [
+      16
+    ]
+  },
+  {
+    "teal": 35,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      17,
+      18
+    ]
+  },
+  {
+    "teal": 36,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      19,
+      20
+    ]
+  },
+  {
+    "teal": 37,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      21
+    ]
+  },
+  {
+    "teal": 40,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"closeRemainderTo\",\"expected\":\"globals.zeroAddress\"}",
+    "pc": [
+      22
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      23,
+      24
+    ]
+  },
+  {
+    "teal": 44,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      25,
+      26
+    ]
+  },
+  {
+    "teal": 45,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      27
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"rekeyTo\",\"expected\":\"globals.zeroAddress\"}",
+    "pc": [
+      28
+    ]
+  },
+  {
+    "teal": 51,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      29,
+      30
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      31,
+      32
+    ]
+  },
+  {
+    "teal": 53,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "pc": [
+      33
+    ]
+  },
+  {
+    "teal": 56,
+    "source": "contracts/FlashLoan.algo.ts:8",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txn\",\"field\":\"groupIndex\",\"expected\":\"0\"}",
+    "pc": [
+      34
+    ]
+  },
+  {
+    "teal": 63,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      35,
+      36
+    ]
+  },
+  {
+    "teal": 64,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      37
+    ]
+  },
+  {
+    "teal": 65,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      38
+    ]
+  },
+  {
+    "teal": 66,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      39,
+      40
+    ]
+  },
+  {
+    "teal": 69,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      41,
+      42
+    ]
+  },
+  {
+    "teal": 70,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      43,
+      44
+    ]
+  },
+  {
+    "teal": 71,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      45
+    ]
+  },
+  {
+    "teal": 72,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "pc": [
+      46
+    ]
+  },
+  {
+    "teal": 75,
+    "source": "contracts/FlashLoan.algo.ts:10",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txnGroup[this.txnGroup.length - 1]\",\"field\":\"typeEnum\",\"expected\":\"pay\"}",
+    "pc": [
+      47
+    ]
+  },
+  {
+    "teal": 78,
+    "source": "contracts/FlashLoan.algo.ts:11",
+    "pc": [
+      48,
+      49
+    ]
+  },
+  {
+    "teal": 79,
+    "source": "contracts/FlashLoan.algo.ts:11",
+    "pc": [
+      50,
+      51
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts/FlashLoan.algo.ts:11",
+    "pc": [
+      52,
+      53
+    ]
+  },
+  {
+    "teal": 81,
+    "source": "contracts/FlashLoan.algo.ts:11",
+    "pc": [
+      54
+    ]
+  },
+  {
+    "teal": 84,
+    "source": "contracts/FlashLoan.algo.ts:11",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txnGroup[this.txnGroup.length - 1]\",\"field\":\"receiver\",\"expected\":\"this.txn.sender\"}",
+    "pc": [
+      55
+    ]
+  },
+  {
+    "teal": 87,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      56,
+      57
+    ]
+  },
+  {
+    "teal": 88,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      58,
+      59
+    ]
+  },
+  {
+    "teal": 89,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      60,
+      61
+    ]
+  },
+  {
+    "teal": 90,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      62,
+      63
+    ]
+  },
+  {
+    "teal": 91,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      64
+    ]
+  },
+  {
+    "teal": 92,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "pc": [
+      65
+    ]
+  },
+  {
+    "teal": 95,
+    "source": "contracts/FlashLoan.algo.ts:12",
+    "errorMessage": "transaction verification failed: {\"txn\":\"this.txnGroup[this.txnGroup.length - 1]\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=this.txn.amount + this.txn.fee\"}",
+    "pc": [
+      66
+    ]
+  },
+  {
+    "teal": 99,
+    "source": "contracts/FlashLoan.algo.ts:15",
+    "pc": [
+      67
+    ]
+  },
+  {
+    "teal": 100,
+    "source": "contracts/FlashLoan.algo.ts:15",
+    "pc": [
+      68,
+      69
+    ]
+  },
+  {
+    "teal": 101,
+    "source": "contracts/FlashLoan.algo.ts:15",
+    "pc": [
+      70
+    ]
+  },
+  {
+    "teal": 102,
+    "source": "contracts/FlashLoan.algo.ts:15",
+    "pc": [
+      71
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts/FlashLoan.algo.ts:6",
+    "pc": [
+      72
+    ]
+  }
+]

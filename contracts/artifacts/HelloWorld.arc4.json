@@ -1,0 +1,28 @@
+{
+  "name": "HelloWorld",
+  "desc": "",
+  "methods": [
+    {
+      "name": "hello",
+      "desc": "A demonstration method used in the AlgoKit fullstack template.\nGreets the user by name.",
+      "args": [
+        {
+          "name": "name",
+          "type": "string",
+          "desc": "The name of the user to greet."
+        }
+      ],
+      "returns": {
+        "type": "string",
+        "desc": "A greeting message to the user."
+      }
+    },
+    {
+      "name": "createApplication",
+      "args": [],
+      "returns": {
+        "type": "void"
+      }
+    }
+  ]
+}

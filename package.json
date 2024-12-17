@@ -1,0 +1,38 @@
+{
+  "name": "flashloanlsig",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "compile-contract": "tealscript contracts/*.algo.ts contracts/artifacts",
+    "generate-client": "algokit generate client contracts/artifacts/ --language typescript  --output contracts/clients/{contract_name}Client.ts",
+    "build": "npm run compile-contract && npm run generate-client",
+    "test": "npm run build && jest",
+    "lint": "eslint . --ext .ts",
+    "fix": "eslint . --ext .ts --fix",
+    "lsigVanitySearch": "ts-node helpers/lsigVanity.ts"
+  },
+  "dependencies": {
+    "@algorandfoundation/algokit-utils": "^8.0.2",
+    "algosdk": "^3.0.0"
+  },
+  "devDependencies": {
+    "@algorandfoundation/algokit-client-generator": "^4.0.5",
+    "@algorandfoundation/tealscript": "^0.106.0",
+    "@jest/globals": "^29.7.0",
+    "@joe-p/algokit-generate-component": "^0.2.0",
+    "@types/node": "^22.10.2",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^5.0.1",
+    "jest": "^29.5.0",
+    "prettier": "^3.0.3",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "5.7.2"
+  }
+}
